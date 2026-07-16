@@ -1,0 +1,7 @@
+{
+  "name": "llenroctech-mobile",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}

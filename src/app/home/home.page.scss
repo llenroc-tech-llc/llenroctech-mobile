@@ -1,0 +1,78 @@
+.hero {
+  padding-top: 8px;
+}
+
+.hero__logo {
+  display: block;
+  height: 92px;
+  margin-bottom: 24px;
+  object-fit: contain;
+  object-position: left center;
+  width: 98px;
+}
+
+.hero__action {
+  margin-top: 24px;
+}
+
+.home-section {
+  margin-top: 36px;
+}
+
+.section-heading-row {
+  align-items: baseline;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-heading-row a {
+  color: var(--llenroc-accent);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.preview-card {
+  align-items: center;
+  display: flex;
+  gap: 14px;
+}
+
+.preview-card img {
+  flex: 0 0 auto;
+  height: 42px;
+  width: 42px;
+}
+
+.preview-card h3 {
+  font-size: 1rem;
+}
+
+.preview-card p {
+  font-size: 0.86rem;
+}
+
+.trust-grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.trust-item {
+  align-items: flex-start;
+  background: rgba(255, 255, 255, 0.045);
+  border: 1px solid var(--llenroc-border);
+  border-radius: 14px;
+  color: var(--llenroc-text-muted);
+  display: flex;
+  font-size: 0.82rem;
+  font-weight: 600;
+  gap: 8px;
+  line-height: 1.35;
+  padding: 12px;
+}
+
+.trust-item ion-icon {
+  color: var(--llenroc-accent);
+  flex: 0 0 auto;
+  font-size: 1.1rem;
+}

@@ -1,0 +1,28 @@
+.page-intro {
+  margin-bottom: 28px;
+}
+
+.services-grid {
+  padding-bottom: 8px;
+}
+
+.service-card {
+  align-items: flex-start;
+  display: flex;
+  gap: 16px;
+}
+
+.service-card img {
+  flex: 0 0 auto;
+  height: 44px;
+  width: 44px;
+}
+
+.service-card h2 {
+  font-size: 1.05rem;
+  line-height: 1.25;
+}
+
+.service-card p {
+  font-size: 0.9rem;
+}

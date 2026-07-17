@@ -1,0 +1,70 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Llenroc Tech</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <main class="mobile-page home-page">
+    <section class="hero" aria-labelledby="home-heading">
+      <img class="hero__logo" src="assets/brand/llenroc-logo-yellow.png" alt="Llenroc Tech" />
+      <p class="section-kicker">Enterprise technology solutions</p>
+      <h1 class="page-heading" id="home-heading">
+        Building Scalable Software Solutions for <span>Modern Businesses</span>
+      </h1>
+      <p class="page-lead">
+        We help organizations build, modernize, and scale secure digital solutions that improve operations and support growth.
+      </p>
+      <ion-button
+        class="brand-button hero__action"
+        expand="block"
+        href="https://forms.office.com/Pages/ResponsePage.aspx?id=XMyOlFLWg0SZ0VoLGWT8r_j0A8qUhJNFifJhkhK5tu1UM0dEUFI0SFNRMjEyNEpDTTVQTDlUUkc4Wi4u"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Request Services
+        <ion-icon slot="end" name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+      </ion-button>
+    </section>
+
+    <section class="home-section" aria-labelledby="services-preview-heading">
+      <div class="section-heading-row">
+        <h2 class="section-title" id="services-preview-heading">How we can help</h2>
+        <a routerLink="/tabs/services">View all</a>
+      </div>
+      <div class="card-grid card-grid--two-column">
+        <article class="brand-card preview-card">
+          <img src="assets/icons/custom-software.svg" alt="" />
+          <div>
+            <h3>Custom Development</h3>
+            <p>Web and mobile solutions built for scale.</p>
+          </div>
+        </article>
+        <article class="brand-card preview-card">
+          <img src="assets/icons/application-modernization.svg" alt="" />
+          <div>
+            <h3>Modernization</h3>
+            <p>Cloud-ready systems with stronger performance.</p>
+          </div>
+        </article>
+        <article class="brand-card preview-card">
+          <img src="assets/icons/cloud-devops.svg" alt="" />
+          <div>
+            <h3>Cloud & DevOps</h3>
+            <p>Reliable delivery through modern automation.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="home-section" aria-labelledby="trust-heading">
+      <h2 class="section-title" id="trust-heading">Ready to partner</h2>
+      <div class="trust-grid">
+        <div class="trust-item"><ion-icon name="checkmark-circle-outline" aria-hidden="true"></ion-icon><span>Veteran-Owned</span></div>
+        <div class="trust-item"><ion-icon name="checkmark-circle-outline" aria-hidden="true"></ion-icon><span>Fully Insured</span></div>
+        <div class="trust-item"><ion-icon name="checkmark-circle-outline" aria-hidden="true"></ion-icon><span>Supplier Onboarding Ready</span></div>
+        <div class="trust-item"><ion-icon name="checkmark-circle-outline" aria-hidden="true"></ion-icon><span>C2C Consulting Available</span></div>
+      </div>
+    </section>
+  </main>
+</ion-content>

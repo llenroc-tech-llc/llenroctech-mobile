@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Llenroc Tech</string>
+    <string name="title_activity_main">Llenroc Tech</string>
+    <string name="package_name">com.llenroctech.mobile</string>
+    <string name="custom_url_scheme">com.llenroctech.mobile</string>
+</resources>

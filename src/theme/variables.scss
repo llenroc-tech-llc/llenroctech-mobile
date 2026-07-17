@@ -1,2 +1,46 @@
-// For information on how to create your own theme, please refer to:
-// https://ionicframework.com/docs/theming/
+:root {
+  --ion-font-family: 'Figtree', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  --ion-color-primary: #ffae00;
+  --ion-color-primary-rgb: 255, 174, 0;
+  --ion-color-primary-contrast: #0e161f;
+  --ion-color-primary-contrast-rgb: 14, 22, 31;
+  --ion-color-primary-shade: #e09900;
+  --ion-color-primary-tint: #ffb61a;
+
+  --ion-color-secondary: #1f3434;
+  --ion-color-secondary-rgb: 31, 52, 52;
+  --ion-color-secondary-contrast: #ffffff;
+  --ion-color-secondary-contrast-rgb: 255, 255, 255;
+  --ion-color-secondary-shade: #1b2e2e;
+  --ion-color-secondary-tint: #354848;
+
+  --ion-color-tertiary: #fab41d;
+  --ion-color-tertiary-rgb: 250, 180, 29;
+  --ion-color-tertiary-contrast: #0e161f;
+  --ion-color-tertiary-contrast-rgb: 14, 22, 31;
+  --ion-color-tertiary-shade: #dc9e1a;
+  --ion-color-tertiary-tint: #fbbb34;
+
+  --llenroc-background: #061d1e;
+  --llenroc-surface: #1f3434;
+  --llenroc-surface-raised: #294141;
+  --llenroc-accent: #ffae00;
+  --llenroc-accent-alt: #fab41d;
+  --llenroc-text: #ffffff;
+  --llenroc-text-dark: #0e161f;
+  --llenroc-text-muted: #c4d0cf;
+  --llenroc-border: rgba(255, 255, 255, 0.14);
+
+  --ion-background-color: var(--llenroc-background);
+  --ion-background-color-rgb: 6, 29, 30;
+  --ion-text-color: var(--llenroc-text);
+  --ion-text-color-rgb: 255, 255, 255;
+  --ion-toolbar-background: rgba(6, 29, 30, 0.96);
+  --ion-toolbar-color: var(--llenroc-text);
+  --ion-tab-bar-background: rgba(6, 29, 30, 0.98);
+  --ion-tab-bar-color: #aebdbc;
+  --ion-tab-bar-color-selected: var(--llenroc-accent);
+  --ion-border-color: var(--llenroc-border);
+  color-scheme: dark;
+}

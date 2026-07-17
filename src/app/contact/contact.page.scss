@@ -1,0 +1,29 @@
+.contact-card {
+  margin-top: 32px;
+  padding: 22px;
+}
+
+.contact-card__icon {
+  align-items: center;
+  background: rgba(255, 174, 0, 0.12);
+  border-radius: 14px;
+  color: var(--llenroc-accent);
+  display: flex;
+  font-size: 1.5rem;
+  height: 48px;
+  justify-content: center;
+  margin-bottom: 18px;
+  width: 48px;
+}
+
+.contact-card h2 {
+  font-size: 1.25rem;
+}
+
+.contact-card p {
+  margin-bottom: 22px;
+}
+
+.contact-card ion-button + ion-button {
+  margin-top: 10px;
+}

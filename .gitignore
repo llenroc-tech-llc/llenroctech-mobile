@@ -68,3 +68,10 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Android generated files
+/android/.gradle/
+/android/build/
+/android/app/build/
+/android/capacitor-cordova-android-plugins/build/
+/android/local.properties

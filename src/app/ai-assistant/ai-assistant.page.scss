@@ -1,0 +1,46 @@
+.assistant-page {
+  align-items: center;
+  display: flex;
+  min-height: 100%;
+}
+
+.assistant-card {
+  background: linear-gradient(145deg, rgba(31, 52, 52, 0.96), rgba(6, 29, 30, 0.96));
+  border: 1px solid var(--llenroc-border);
+  border-radius: 24px;
+  padding: 26px 22px;
+}
+
+.assistant-icon {
+  align-items: center;
+  background: var(--llenroc-accent);
+  border-radius: 18px;
+  color: var(--llenroc-text-dark);
+  display: flex;
+  font-size: 1.8rem;
+  height: 58px;
+  justify-content: center;
+  margin-bottom: 26px;
+  width: 58px;
+}
+
+.security-note {
+  align-items: center;
+  border-top: 1px solid var(--llenroc-border);
+  color: var(--llenroc-text-muted);
+  display: flex;
+  gap: 10px;
+  margin-top: 26px;
+  padding-top: 18px;
+}
+
+.security-note ion-icon {
+  color: var(--llenroc-accent);
+  flex: 0 0 auto;
+}
+
+.security-note p {
+  font-size: 0.86rem;
+  line-height: 1.45;
+  margin: 0;
+}

@@ -1,1 +1,7 @@
+ion-tab-bar {
+  height: calc(60px + env(safe-area-inset-bottom));
+}
 
+ion-icon {
+  font-size: 1.35rem;
+}
